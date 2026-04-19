@@ -136,17 +136,26 @@ footer {
     font-weight: bolder;
 }
 
-aside {
+.aside-text:hover {
+    color:orange
+}
+.aside-text:hover::before {
+    content: url(https://static-algoritmika-org.ngcdn.ru/uploads/2021/03/bulb-29050_0_1615894644.svg);
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
     position: fixed;
     right: 0px;
-    top: 230px;
-    color: white;
+    top: 230px:
     width: 100px;
     height: 390px;
     border-radius: 10px;
     padding: 20px;
     background-color:rgb(134, 33, 97);
 }
+
+aside
 
 .post:hover {
     background-color: #7c92d6;
