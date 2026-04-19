@@ -160,6 +160,10 @@ aside {
     content: url(https://mars.algoritmika.org/uploads/2021/03/tel_0_1616091817.svg);
 }
 
+.button:hover {
+    background-color: orange;
+}
+
 .nav-link:hover {
     color: #36bbce;
     border-bottom: 2px dashed #36bbce;
