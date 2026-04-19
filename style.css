@@ -44,6 +44,16 @@ h1 {
     margin-bottom: 40px;
 }
 
+h2 {
+    position: relative;
+}
+
+.post:hover h2 {
+    color: white;
+    left: 30px;
+    font-size: 25px;
+}
+
 .post-text {
     font-size: 24px;
 }
@@ -61,6 +71,26 @@ h1 {
     width: 400px;
     margin: 20px;
     position: relative;
+
+}
+
+.post:hover .post-img {
+    background-color: white;
+
+}
+
+.post:hover .post-text {
+    left:30px;
+    font-size: 25px;
+    font-weight: bolder;
+
+}
+
+.post:hover .article-but {
+    border: 5px solid #133AAC;
+    background-color: white;
+    color: #133AAC;
+    font-weight: bolder;
 }
 
 .article-but {
@@ -71,6 +101,12 @@ h1 {
     text-align: center;
     padding: 10px 75px 10px 75px;
     display: block;
+}
+
+.article-but:hover {
+    color: blue;
+    border: 5px solid blue;
+    background-color: white;
 }
 
 .full-image {
